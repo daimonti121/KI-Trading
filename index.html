@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            AI Trading Webinar | How to Use Artificial Intelligence in Trading
+        </title>
+        <meta
+            name="description"
+            content="Join our comprehensive webinar series for private traders and investors. Learn AI tools, automate trading strategies, and master practical cases with expert guidance."
+        />
+        <meta name="author" content="Lovable" />
+
+        <meta
+            property="og:title"
+            content="b6ee11f8-981e-4587-bada-67dde41addbd"
+        />
+        <meta property="og:description" content="Lovable Generated Project" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:image"
+            content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a7b5d4d4-5ba6-4d4d-915d-a722c4db1908/id-preview-87ca691d--b6ee11f8-981e-4587-bada-67dde41addbd.lovable.app-1753334700094.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@lovable_dev" />
+        <meta
+            name="twitter:image"
+            content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a7b5d4d4-5ba6-4d4d-915d-a722c4db1908/id-preview-87ca691d--b6ee11f8-981e-4587-bada-67dde41addbd.lovable.app-1753334700094.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./assets/favicon/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="./assets/favicon/favicon.svg"
+        />
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+        <link rel="stylesheet" crossorigin="" href="./assets/main.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="root">
+            <div
+                role="region"
+                aria-label="Notifications (F8)"
+                tabindex="-1"
+                style="pointer-events: none"
+            >
+                <ol
+                    tabindex="-1"
+                    class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"
+                ></ol>
+            </div>
+            <div class="min-h-screen">
+                <header
+                    class="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40"
+                >
+                    <div
+                        class="container flex h-16 items-center justify-between"
+                    >
+                        <div class="flex items-center space-x-2">
+                            <div
+                                class="h-8 w-8 rounded-lg bg-gradient-primary flex items-center justify-center"
+                            >
+                                <span
+                                    class="text-primary-foreground font-bold text-sm"
+                                    >AI</span
+                                >
+                            </div>
+                            <span class="font-semibold text-foreground"
+                                >KI Trading</span
+                            >
+                        </div>
+                        <nav class="hidden md:flex items-center space-x-6">
+                            <a
+                                href="about.html"
+                                class="text-muted-foreground hover:text-foreground transition-smooth"
+                                >Über uns</a
+                            ><a
+                                href="contacts.html"
+                                class="text-muted-foreground hover:text-foreground transition-smooth"
+                                >Kontakt</a
+                            >
+                        </nav>
+                        <a
+                            href="contacts.html"
+                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gradient-primary text-primary-foreground hover:shadow-glow transition-smooth border-0 shadow-button h-9 rounded-md px-3"
+                        >
+                            Jetzt anmelden
+                        </a>
+                    </div>
+                </header>
+                <section
+                    id="hero"
+                    class="relative min-h-screen flex items-center justify-center overflow-hidden"
+                >
+                    <div class="absolute inset-0">
+                        <img
+                            src="./assets/main-bg.jpg"
+                            alt="Webinar über KI im Trading 2025"
+                            class="w-full h-full object-cover"
+                        />
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background/80"
+                        ></div>
+                    </div>
+                    <div
+                        class="absolute top-20 left-10 w-72 h-72 bg-gradient-primary rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"
+                    ></div>
+                    <div
+                        class="absolute top-40 right-10 w-72 h-72 bg-gradient-accent rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"
+                    ></div>
+                    <div
+                        class="absolute -bottom-8 left-20 w-72 h-72 bg-gradient-primary rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"
+                    ></div>
+                    <div
+                        class="relative z-10 text-center max-w-4xl mx-auto px-4"
+                    >
+                        <h1
+                            class="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent"
+                        >
+                            Entdecken Sie die Zukunft des Tradings mit KI
+                        </h1>
+                        <p
+                            class="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto"
+                        >
+                            Live-Webinar für private Trader und Investoren – mit
+                            echten Tools, Strategien und Erfolgsgeschichten
+                        </p>
+                        <div
+                            class="flex flex-col sm:flex-row gap-4 justify-center"
+                        >
+                            <a
+                                href="contacts.html"
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gradient-primary text-primary-foreground hover:shadow-glow transition-smooth border-0 shadow-button h-11 rounded-md text-lg px-8 py-4"
+                            >
+                                Jetzt anmelden
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section id="why-join" class="py-20 bg-muted/30">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                                Warum teilnehmen?
+                            </h2>
+                            <p
+                                class="text-muted-foreground text-lg max-w-2xl mx-auto"
+                            >
+                                Entdecken Sie die Vorteile unseres
+                                praxisorientierten Webinars
+                            </p>
+                        </div>
+                        <div
+                            class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto"
+                        >
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-start space-x-4">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-circle-check h-6 w-6 text-primary mt-1 flex-shrink-0"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <p class="text-foreground font-medium">
+                                        Erfahren Sie, wie KI das Trading im Jahr
+                                        2025 revolutioniert
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-start space-x-4">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-circle-check h-6 w-6 text-primary mt-1 flex-shrink-0"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <p class="text-foreground font-medium">
+                                        Praktische Tools zur Automatisierung
+                                        Ihrer Strategien
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-start space-x-4">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-circle-check h-6 w-6 text-primary mt-1 flex-shrink-0"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <p class="text-foreground font-medium">
+                                        Reale Erfolgscases von erfahrenen
+                                        Tradern
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-start space-x-4">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-circle-check h-6 w-6 text-primary mt-1 flex-shrink-0"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <p class="text-foreground font-medium">
+                                        Stellen Sie Ihre Fragen live an unsere
+                                        Experten
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="agenda" class="py-20">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                                Webinar-Agenda
+                            </h2>
+                            <p
+                                class="text-muted-foreground text-lg max-w-2xl mx-auto"
+                            >
+                                Ein strukturiertes Programm für maximalen
+                                Lernerfolg
+                            </p>
+                        </div>
+                        <div class="max-w-3xl mx-auto">
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm mb-4 p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="flex-shrink-0 w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >1</span
+                                        >
+                                    </div>
+                                    <div class="flex-grow">
+                                        <p class="text-foreground font-medium">
+                                            Einführung: Das Potenzial von KI im
+                                            Trading
+                                        </p>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-clock h-5 w-5 text-muted-foreground"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline
+                                            points="12 6 12 12 16 14"
+                                        ></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm mb-4 p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="flex-shrink-0 w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >2</span
+                                        >
+                                    </div>
+                                    <div class="flex-grow">
+                                        <p class="text-foreground font-medium">
+                                            Überblick über moderne Plattformen
+                                            und Tools
+                                        </p>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-clock h-5 w-5 text-muted-foreground"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline
+                                            points="12 6 12 12 16 14"
+                                        ></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm mb-4 p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="flex-shrink-0 w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >3</span
+                                        >
+                                    </div>
+                                    <div class="flex-grow">
+                                        <p class="text-foreground font-medium">
+                                            Automatisierung ohne Programmierung
+                                        </p>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-clock h-5 w-5 text-muted-foreground"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline
+                                            points="12 6 12 12 16 14"
+                                        ></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm mb-4 p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="flex-shrink-0 w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >4</span
+                                        >
+                                    </div>
+                                    <div class="flex-grow">
+                                        <p class="text-foreground font-medium">
+                                            Live-Case: Algorithmischer Handel in
+                                            Aktion
+                                        </p>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-clock h-5 w-5 text-muted-foreground"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline
+                                            points="12 6 12 12 16 14"
+                                        ></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm mb-4 p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <div class="flex items-center space-x-4">
+                                    <div
+                                        class="flex-shrink-0 w-8 h-8 bg-gradient-primary rounded-full flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >5</span
+                                        >
+                                    </div>
+                                    <div class="flex-grow">
+                                        <p class="text-foreground font-medium">
+                                            Q&amp;A-Session mit Experten
+                                        </p>
+                                    </div>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-clock h-5 w-5 text-muted-foreground"
+                                    >
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline
+                                            points="12 6 12 12 16 14"
+                                        ></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="speakers" class="py-20 bg-muted/30">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                                Unsere Sprecher
+                            </h2>
+                            <p
+                                class="text-muted-foreground text-lg max-w-2xl mx-auto"
+                            >
+                                Lernen Sie von den besten Experten der Branche
+                            </p>
+                        </div>
+                        <div
+                            class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+                        >
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-8 text-center bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <span
+                                    class="relative flex shrink-0 overflow-hidden rounded-full w-24 h-24 mx-auto mb-6 border-2 border-primary/20"
+                                    ><span
+                                        class="flex h-full w-full items-center justify-center rounded-full text-xl font-bold bg-gradient-primary text-primary-foreground"
+                                        >MM</span
+                                    ></span
+                                >
+                                <h3
+                                    class="text-xl font-bold text-foreground mb-2"
+                                >
+                                    Max Müller
+                                </h3>
+                                <p class="text-primary font-medium mb-4">
+                                    Professioneller Trader
+                                </p>
+                                <p
+                                    class="text-muted-foreground leading-relaxed"
+                                >
+                                    Professioneller Trader mit über 10 Jahren
+                                    Erfahrung im algorithmischen Handel.
+                                </p>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-8 text-center bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <span
+                                    class="relative flex shrink-0 overflow-hidden rounded-full w-24 h-24 mx-auto mb-6 border-2 border-primary/20"
+                                    ><span
+                                        class="flex h-full w-full items-center justify-center rounded-full text-xl font-bold bg-gradient-primary text-primary-foreground"
+                                        >AW</span
+                                    ></span
+                                >
+                                <h3
+                                    class="text-xl font-bold text-foreground mb-2"
+                                >
+                                    Anna Wagner
+                                </h3>
+                                <p class="text-primary font-medium mb-4">
+                                    KI-Expertin
+                                </p>
+                                <p
+                                    class="text-muted-foreground leading-relaxed"
+                                >
+                                    Machine Learning Spezialistin, Autorin des
+                                    Kurses "KI für Trader".
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="testimonials" class="py-20">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                                Teilnehmerstimmen
+                            </h2>
+                            <p
+                                class="text-muted-foreground text-lg max-w-2xl mx-auto"
+                            >
+                                Was unsere Teilnehmer über das Webinar sagen
+                            </p>
+                        </div>
+                        <div
+                            class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+                        >
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-quote h-8 w-8 text-primary mb-4"
+                                >
+                                    <path
+                                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                                    ></path>
+                                    <path
+                                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                                    ></path>
+                                </svg>
+                                <blockquote
+                                    class="text-foreground text-lg mb-6 leading-relaxed"
+                                >
+                                    "Endlich ein praxisorientiertes Webinar. Der
+                                    Bot läuft, danke!"
+                                </blockquote>
+                                <footer class="flex items-center space-x-2">
+                                    <span class="font-medium text-foreground"
+                                        >— Andreas</span
+                                    ><span class="text-muted-foreground"
+                                        >Berlin</span
+                                    >
+                                </footer>
+                            </div>
+                            <div
+                                class="rounded-lg border text-card-foreground shadow-sm p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-smooth"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-quote h-8 w-8 text-primary mb-4"
+                                >
+                                    <path
+                                        d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                                    ></path>
+                                    <path
+                                        d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"
+                                    ></path>
+                                </svg>
+                                <blockquote
+                                    class="text-foreground text-lg mb-6 leading-relaxed"
+                                >
+                                    "Top Format! Live-Fragerunde mit echten
+                                    Antworten – super!"
+                                </blockquote>
+                                <footer class="flex items-center space-x-2">
+                                    <span class="font-medium text-foreground"
+                                        >— Katharina</span
+                                    ><span class="text-muted-foreground"
+                                        >München</span
+                                    >
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="faq" class="py-20 bg-muted/30">
+                    <div class="container mx-auto px-4">
+                        <div class="text-center mb-12">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                                Häufig gestellte Fragen
+                            </h2>
+                            <p
+                                class="text-muted-foreground text-lg max-w-2xl mx-auto"
+                            >
+                                Finden Sie Antworten auf die wichtigsten Fragen
+                            </p>
+                        </div>
+                        <div class="accordionWrapper">
+                            <div class="accordionItem open">
+                                <h2 class="accordionItemHeading">
+                                    Benötige ich Vorerfahrung im Trading?
+                                </h2>
+                                <div class="accordionItemContent">
+                                    <p>
+                                        Nein. Das Webinar richtet sich sowohl an
+                                        Einsteiger als auch Fortgeschrittene.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordionItem close">
+                                <h2 class="accordionItemHeading">
+                                    Wird das Webinar aufgezeichnet?
+                                </h2>
+                                <div class="accordionItemContent">
+                                    <p>
+                                        Ja, registrierte Teilnehmer erhalten
+                                        einen Link zur Aufzeichnung.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="accordionItem close">
+                                <h2 class="accordionItemHeading">
+                                    Welche Tools werden vorgestellt?
+                                </h2>
+                                <div class="accordionItemContent">
+                                    <p>
+                                        Gezeigt werden TradingView, MetaTrader,
+                                        Pine Script und KI-Bots.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="cta-bottom" class="py-20 relative overflow-hidden">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10"
+                    ></div>
+                    <div
+                        class="absolute top-10 left-10 w-32 h-32 bg-gradient-primary rounded-full mix-blend-multiply filter blur-xl opacity-20"
+                    ></div>
+                    <div
+                        class="absolute bottom-10 right-10 w-32 h-32 bg-gradient-accent rounded-full mix-blend-multiply filter blur-xl opacity-20"
+                    ></div>
+                    <div class="container mx-auto px-4 relative z-10">
+                        <div class="text-center max-w-3xl mx-auto">
+                            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                                Bereit für die Zukunft des Tradings?
+                            </h2>
+                            <p class="text-muted-foreground text-lg mb-8">
+                                Melden Sie sich jetzt zum Webinar an und nutzen
+                                Sie KI noch heute!
+                            </p>
+                            <a
+                                href="contacts.html"
+                                class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-gradient-primary text-primary-foreground hover:shadow-glow transition-smooth border-0 shadow-button h-11 rounded-md text-lg px-8 py-4"
+                            >
+                                Jetzt registrieren
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <footer class="bg-background border-t border-border/40">
+                    <div class="container mx-auto px-4 py-12">
+                        <div class="grid md:grid-cols-4 gap-8 mb-8">
+                            <div class="md:col-span-2">
+                                <div class="flex items-center space-x-2 mb-4">
+                                    <div
+                                        class="h-8 w-8 rounded-lg bg-gradient-primary flex items-center justify-center"
+                                    >
+                                        <span
+                                            class="text-primary-foreground font-bold text-sm"
+                                            >AI</span
+                                        >
+                                    </div>
+                                    <span
+                                        class="font-semibold text-foreground text-lg"
+                                        >KI Trading</span
+                                    >
+                                </div>
+                                <p class="text-muted-foreground max-w-md">
+                                    Webinar-Plattform für Trader &amp;
+                                    Investoren – powered by KI. Entdecken Sie
+                                    die Zukunft des algorithmischen Handels.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-foreground mb-4">
+                                    Navigation
+                                </h3>
+                                <nav class="space-y-2">
+                                    <a
+                                        href="about.html"
+                                        class="block text-muted-foreground hover:text-foreground transition-smooth"
+                                        >Über uns</a
+                                    ><a
+                                        href="contacts.html"
+                                        class="block text-muted-foreground hover:text-foreground transition-smooth"
+                                        >Kontakt</a
+                                    >
+                                </nav>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-foreground mb-4">
+                                    Rechtliches
+                                </h3>
+                                <nav class="space-y-2">
+                                    <a
+                                        href="terms.html"
+                                        class="block text-muted-foreground hover:text-foreground transition-smooth"
+                                        >Nutzungsbedingungen</a
+                                    ><a
+                                        href="privacy_policy.html"
+                                        class="block text-muted-foreground hover:text-foreground transition-smooth"
+                                        >Datenschutzrichtlinie</a
+                                    >
+                                </nav>
+                            </div>
+                        </div>
+                        <div
+                            role="none"
+                            class="shrink-0 bg-border h-[1px] w-full mb-8"
+                        ></div>
+                        <div class="text-center text-muted-foreground">
+                            <p>© 2025 KI Trading. Alle Rechte vorbehalten.</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script>
+            var accItem = document.getElementsByClassName('accordionItem');
+            var accHD = document.getElementsByClassName('accordionItemHeading');
+            for (i = 0; i < accHD.length; i++) {
+                accHD[i].addEventListener('click', toggleItem, false);
+            }
+            function toggleItem() {
+                var itemClass = this.parentNode.className;
+                for (i = 0; i < accItem.length; i++) {
+                    accItem[i].className = 'accordionItem close';
+                }
+                if (itemClass == 'accordionItem close') {
+                    this.parentNode.className = 'accordionItem open';
+                }
+            }
+        </script>
+    </body>
+    <script src="./assets/lovable.js" type="module"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            window.cookieconsent.initialise({
+                palette: {
+                    popup: { background: '#000' },
+                    button: { background: '#f1d600' },
+                },
+                theme: 'classic',
+                content: {
+                    message:
+                        'Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern.',
+                    dismiss: 'Verstanden',
+                    link: 'Mehr erfahren',
+                    href: '/privacy',
+                },
+            });
+        });
+    </script>
+
+</html>
